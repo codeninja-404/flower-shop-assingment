@@ -148,7 +148,7 @@ a {
 
 }
 
-/* hot deals section */
+/* hot deals related styles */
 .hot-deal-container {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -176,7 +176,7 @@ a {
     padding-bottom: 50px;
 }
 
-/* instagram section styles */
+/* instagram section related styles */
 
 .instagram {
     text-align: center;
@@ -198,30 +198,27 @@ a {
 
 }
 
-/* coupon section */
+/* coupon related styles */
 .subscribe {
     width: 80%;
     text-align: center;
-    margin: 100px auto; 
+    margin: 100px auto;
     height: 350px;
     background-image: url('./images/rectangle9.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-image: 10px;
-    
+
 }
 
 
 
-.subcribe-container{
-    
+.subscribe-container {
     padding-top: 70px;
 
-   
-
 }
 
-.coupon{
+.coupon {
     color: rgba(39, 39, 39, 0.60);
     font-size: 20px;
     margin-bottom: 20px;
@@ -235,26 +232,62 @@ a {
     border-radius: 8px;
     height: 20;
 
-    
+
 }
 
 /* map section as bonus section 2 */
 
-.map{
+.map {
     border-radius: 10px;
     margin: 0 auto;
     width: 80%;
 }
 
-.find-us{
-    
-    background-color: #272727;
-    font-size: 50px;
+.find-us {
+    background-color: #343434;
+    font-size: 40px;
     text-align: center;
     color: aliceblue;
     border-radius: 10px 10px 0 0;
 
 }
 
+iframe {
+    border: none;
+}
 
+/* footer related styles */
 
+.footer {
+    background: #111010;
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.footer-container {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-title {
+    margin: 20px auto;
+    color: #fff;
+    font-size: 35px;
+}
+
+.footer-info {
+    margin: 25px auto;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copy-r {
+    margin: 20px auto;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+/* styles complete :') */
