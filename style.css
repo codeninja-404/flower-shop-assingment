@@ -9,12 +9,25 @@
 /* shared styles */
 .btn-prime {
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     border: 0px;
     padding: 20px 43px;
     color: aliceblue;
     font-size: 15px;
     margin-top: 15px;
+}
+
+.highlight {
+    color: #e55473;
+    ;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-break: auto;
 }
 
 /* header related styles */
@@ -42,12 +55,7 @@
     font-weight: 900;
 }
 
-.banner-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 20px;
-    margin-bottom: 15px;
-    line-break: auto;
-}
+
 
 /* styles for main section  */
 
@@ -58,7 +66,7 @@
     text-align: center;
     padding-top: 100px;
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
 
 
 }
@@ -87,7 +95,7 @@
     justify-content: center;
     gap: 20px;
     align-items: center;
-   
+
 
 }
 
@@ -95,7 +103,7 @@
 
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    background-image: url('../images/pngwing 6.png');
+    background-image: url('./images/pngwing 6.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 70%;
@@ -107,7 +115,7 @@
 .img2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    background-image: url('../images/pngwing 5.png');
+    background-image: url('./images/pngwing 5.png');
     background-position: bottom;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -119,7 +127,7 @@
 .img3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    background-image: url('../images/pngwing 7.png');
+    background-image: url('./images/pngwing 7.png');
     background-position: center;
     background-repeat: no-repeat;
     height: 464px;
@@ -129,7 +137,7 @@
 
 }
 
- a {
+a {
     position: static;
     margin-top: 480px;
     display: flex;
@@ -137,5 +145,32 @@
     font-size: 19px;
     font-weight: 550;
     color: black;
-    
+
+}
+
+/* hot deals section */
+.hot-deal-container {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 150px;
+    margin-top: 150px;
+    align-items: center;
+
+}
+
+.deal-info{
+    text-align: center;
+    width: 50%;
+}
+
+.deal-title{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.deal-img{
+    width: 20%;
+    padding-bottom: 50px;
 }
