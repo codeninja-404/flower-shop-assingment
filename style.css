@@ -180,7 +180,8 @@ a {
 
 .instagram {
     text-align: center;
-    margin: 0 auto;
+    margin: 60px auto;
+    width: 80%;
 }
 
 .insta-description {
@@ -191,8 +192,69 @@ a {
 
 .insta-img {
 
-    width: 240px;
-    height: 290px;
+    width: 270px;
+    height: 320px;
     padding: 0 10px;
 
 }
+
+/* coupon section */
+.subscribe {
+    width: 80%;
+    text-align: center;
+    margin: 100px auto; 
+    height: 350px;
+    background-image: url('./images/rectangle9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: 10px;
+    
+}
+
+
+
+.subcribe-container{
+    
+    padding-top: 70px;
+
+   
+
+}
+
+.coupon{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-break: auto;
+}
+
+
+.email {
+    padding: 20px 200px;
+    border: none;
+    border-radius: 8px;
+    height: 20;
+
+    
+}
+
+/* map section as bonus section 2 */
+
+.map{
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.find-us{
+    
+    background-color: #272727;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px 10px 0 0;
+
+}
+
+
+
